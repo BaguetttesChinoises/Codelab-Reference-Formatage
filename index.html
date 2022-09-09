@@ -1,0 +1,171 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id=""
+                  title=""
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Titres" duration="2">
+        <h2 is-upgraded><strong>Section (style = Titre 2)</strong></h2>
+<h3 is-upgraded><strong>Sous section</strong></h3>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Styles de textes" duration="0">
+        <p>Voici du texte en <strong>gras </strong>et en <em>italique</em></p>
+<p>Ci-dessous, insertion de code avec la police ‘Courier New&#39;</p>
+<p><code>apt install apache2</code></p>
+<h2 is-upgraded><strong>Listes ordonnées</strong></h2>
+<ol type="1" start="1">
+<li>Unpack</li>
+<li>Run</li>
+<li>Edit</li>
+</ol>
+<h2 is-upgraded><strong>Listes non-ordonnées</strong></h2>
+<ul>
+<li>Use</li>
+<li>Be fast</li>
+<li>Be installable</li>
+</ul>
+<h2 is-upgraded><strong>Info Boxes</strong></h2>
+<p>Pour des informations supplémentaires, il y a 2 styles d&#39;info boxes :</p>
+<ul>
+<li>Positive information : insérer un <strong>tableau </strong>d&#39;<strong>une seule cellule</strong> avec une <strong>couleur </strong>de background = <strong>vert clair 3</strong></li>
+<li>Negative information : Idem mais avec une couleur = <strong>orange clair 3</strong></li>
+</ul>
+<aside class="special"><p>Positive information : ex les bonnes pratiques ou les tips pour gagner du temps</p>
+</aside>
+<aside class="warning"><p>Negative information : ex les avertissements et les restrictions d&#39;API</p>
+</aside>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Code" duration="0">
+        <h2 is-upgraded><strong>Lignes de commandes</strong></h2>
+<p>Insérer un <strong>tableau 1 cellule</strong> et utiliser la police <strong>Consolas font</strong>.</p>
+<pre>apt install apache2</pre>
+<h2 is-upgraded><strong>Code</strong></h2>
+<p>Insérer du code avec le surlignage de syntaxe (syntax highlighting) en faisant un <strong>tableau 1 cellule</strong> et utiliser la police <code>Courier New</code></p>
+<h3 is-upgraded><a href="https://github.com/googlecodelabs/your-first-pwapp/blob/master/public/index.html#L30" target="_blank">public/index.html</a></h3>
+<pre><code>&lt;!-- CODELAB: Add link rel manifest --&gt;
+&lt;link rel=&#34;manifest&#34; href=&#34;/manifest.json&#34;&gt;</code></pre>
+<aside class="special"><p>Il est conseillé d&#39;ajouter le nom du fichier au dessus du code. Pour cela utilisé le style = Titre 3. De plus l&#39;extension du fichier aide à détecter le type de code (ex Python/HTML/Java)</p>
+</aside>
+<aside class="special"><p>Il est également conseillé d&#39;ajouter un lien hyperlink sur le nom de fichier (si il est accessible sur GitHub).</p>
+</aside>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Images" duration="0">
+        <p>La taille de l&#39;image ci-dessous correspond au <code>max-width</code>, c&#39;est à dire que ce sera la taille maximum affichée. Sinon l&#39;image sera réduite sur les navigateurs plus petits.</p>
+<p class="image-container"><img style="width: 378.38px" src="img\\f2e4ed8199d53a9d.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Vidéos" duration="0">
+        <h2 is-upgraded><strong>Vidéos Youtube</strong></h2>
+<p>Pour insérer une vidéo Youtube on peut :</p>
+<ul>
+<li>Ajouter une image (ex une capture d&#39;écran de la vidéo). Cette capture d&#39;écran n&#39;a pas d&#39;importance car elle sera remplacée par la vidéo.</li>
+<li>Ajouter un &#34;Text alternatif&#34; à l&#39;image en faisant <strong>Cmd+Alt+Y ou Clique droit &gt; &#34;Text Alter..&#34;</strong></li>
+<li>Insérer le lien dans la <strong>Description </strong>avec le format : <a href="https://www.youtube.com/watch?v=[video_ID" target="_blank"><code>https://www.youtube.com/watch?v=[video_ID</code></a><code>]</code></li>
+</ul>
+<aside class="warning"><p>Pour l&#39;instant on ne peut pas paramétrer la date de début de la vidéo</p>
+</aside>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/8gd_fiHQW_E?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="FAQ" duration="0">
+        <p>On peut créer une FAQ (Frequently Asked Questions) pour les problèmes les plus courants/les mauvaises compréhensions/manipulations.</p>
+<p>Les FAQ peuvent être insérées à chaque section. Pour cela : </p>
+<ul>
+<li>Insérer le texte &#34;Frequently Asked Questions&#34; en utilisant le style = Titre 3</li>
+<li>En dessous, ajouter une liste non-ordonnée avec des liens hyperlink</li>
+</ul>
+<h3 class="faq" is-upgraded><strong>Frequently Asked Questions</strong></h3>
+<ul class="faq">
+<li><a href="http://stackoverflow.com" target="_blank">Stackoverflow.com</a></li>
+<li><a href="http://developers.google.com" target="_blank">Developers.google.com</a></li>
+<li><a href="http://developers.android.com" target="_blank">Developers.android.com</a></li>
+<li><a href="http://support.google.com" target="_blank">Support.google.com</a></li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Iframes" duration="0">
+        <p><a href="https://github.com/googlecodelabs/tools/blob/main/FORMAT-GUIDE.md" target="_blank">tuto insertion iframes</a></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Publier son codelab" duration="0">
+        <h2 is-upgraded><strong>Générer les fichiers</strong></h2>
+<ol type="1" start="1">
+<li>Créer un dossier qui contiendra les fichiers générés</li>
+<li>Ouvrir un terminal et se positionner dans ce dossier</li>
+<li>Copier le DocId de votre google doc. C&#39;est la longue chaîne de caractères vers la fin de l&#39;URL (juste après le <code>docs.google.com/document/d/</code>)</li>
+<li>Dans le terminal taper la commande :</li>
+</ol>
+<pre>claat export &lt;DocId&gt;</pre>
+<ol type="1" start="5">
+<li>Si on vous demande un code :</li>
+</ol>
+<pre>Authorize me at following URL, please: &lt;url&gt;</pre>
+<ol type="1" start="6">
+<li>Il faut ouvrir cette <code><url></code> dans un navigateur. Puis copier/coller le code obtenu dans le terminal.</li>
+<li>Les fichiers sont générés et vous pouvez lancer le serveur local pour afficher le codelab</li>
+</ol>
+<pre>claat serve</pre>
+<h2 is-upgraded><strong>Publier sur GutHub</strong></h2>
+<ol type="1" start="1">
+<li>Connecter vous à <a href="https://github.com/" target="_blank">https://github.com/</a> et créer un nouveau repository</li>
+<li>Cliquer sur &#34;creating a new file&#34; comme ci-dessous :</li>
+</ol>
+<p class="image-container"><img style="width: 624.00px" src="img\\58aba4ae6057f8e7.png"></p>
+<ol type="1" start="3">
+<li>Dans le nom du fichier mettre <code>/img/test.txt</code> (cela va permettre de créer le dossier /img)</li>
+<li>Uploader les fichiers générés précédemment (les img dans les img; les fichiers .html et .json à la racine)</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
